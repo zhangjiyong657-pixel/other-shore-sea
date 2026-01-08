@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b1c2d;
+  color: #e6eef6;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.intro {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b1c2d;
+}
+
+.intro-text p {
+  margin: 6px 0;
+  font-size: 22px;
+}
+
+.intro-text .small {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+#main, #bottle {
+  padding: 40px 20px;
+}
+
+button {
+  background: none;
+  border: 1px solid #e6eef6;
+  color: #e6eef6;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 24px;
+}
+
+textarea {
+  width: 90%;
+  height: 120px;
+  background: transparent;
+  border: 1px solid #e6eef6;
+  color: #e6eef6;
+  padding: 10px;
+  border-radius: 8px;
+}

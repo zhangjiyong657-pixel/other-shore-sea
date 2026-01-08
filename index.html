@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>彼岸之海</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 闪现页 -->
+  <div id="intro" class="intro">
+    <div class="intro-text">
+      <p>彼岸之海</p>
+      <p class="small">为那些</p>
+      <p class="small">习惯先照顾别人情绪的人</p>
+      <p class="small">留着</p>
+    </div>
+  </div>
+
+  <!-- 主页面 -->
+  <div id="main" class="hidden">
+    <h1>彼岸之海</h1>
+    <p class="desc">
+      这里不是让你想清楚的地方。<br/>
+      如果你有一句话不想再放在身体里，<br/>
+      可以交给海。
+    </p>
+
+    <button onclick="openBottle()">扔一个瓶子</button>
+  </div>
+
+  <!-- 扔瓶子页面 -->
+  <div id="bottle" class="hidden">
+    <p class="hint">你可以说得很乱，也可以只说一半。</p>
+    <textarea id="message" placeholder="把那句话写下来…"></textarea>
+    <button onclick="throwBottle()">交给海</button>
+    <p id="done" class="hidden">已交给海。你可以停一下。</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
